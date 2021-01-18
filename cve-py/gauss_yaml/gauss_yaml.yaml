@@ -1,0 +1,252 @@
+jemalloc:
+  cpeName: jemalloc
+  version: 5.2.1
+  url: 'https://github.com/jemalloc'
+libedit:
+  cpeName: libedit
+  version: 3.1
+  url: 'http://thrysoee.dk/editline/'
+OpenSSL:
+  cpeName: OpenSSL
+  version: 1.1.1d
+  url: 'https://www.openssl.org/news/vulnerabilities.html'
+lz4:
+  cpeName: lz4
+  version: v1.9.2
+  url: 'https://github.com/lz4'
+Postgresql JDBC Driver:
+  cpeName: Postgresql JDBC Driver
+  version: 42.2.5
+  url: 'https://jdbc.postgresql.org/index.html'
+Postgres-XC:
+  cpeName: Postgres-XC
+  version: 1.1
+  url: ''
+PSQL ODBC:
+  cpeName: psqlodbc
+  version: 10.03.0000
+  url: 'https://www.postgresql.org/'
+snappy:
+  cpeName: snappy
+  version: 1.1.7
+  url: ''
+protobuf:
+  cpeName: protobuf
+  version: 3.7.1
+  url: 'https://github.com/protocolbuffers/protobuf'
+masstree:
+  cpeName: masstree
+  version: v0.9.0
+  url: ''
+mysql_fdw:
+  cpeName: mysql_fdw
+  version: v2.5.3
+  url: 'https://github.com/EnterpriseDB/mysql_fdw'
+oracle_fdw:
+  cpeName: oracle_fdw
+  version: v2.2.0
+  url: 'https://github.com/laurenz/oracle_fdw'
+llvm:
+  cpeName: llvm
+  version: 7.0.0
+  url: 'https://github.com/llvm'
+ncurses:
+  cpeName: ncurses
+  version: 6.2
+  url: ''
+paramiko:
+  cpeName: paramiko
+  version: 2.6.0
+  url: 'https://github.com/paramiko/paramiko'
+huaweicloud-sdk-c-obs:
+  cpeName: huaweicloud-sdk-c-obs
+  version: 3.1.3
+  url: 'https://github.com/huaweicloud/huaweicloud-sdk-c-obs'
+Kerberos 5 (KRB5):
+  cpeName: Kerberos 5 (KRB5)
+  version: 1.17.1
+  url: 'https://kerberos.org/'
+Curl and Libcurl:
+  cpeName: Curl and Libcurl
+  version: 7.68.0
+  url: 'https://curl.se/docs/security.html'
+orc:
+  cpeName: orc
+  version: 1.5.7
+  url: 'https://orc.apache.org/security/'
+libiconv:
+  cpeName: libiconv
+  version: 1.16
+  url: 'https://www.gnu.org/software/libiconv/'
+pcre:
+  cpeName: pcre
+  version: 8.42
+  url: 'https://www.pcre.org/'
+psutil:
+  cpeName: psutil
+  version: 5.6.7
+  url: 'https://pypi.org/project/psutil/'
+Netifaces:
+  cpeName: Netifaces
+  version: 0.10.9
+  url: 'https://pypi.org/project/netifaces/'
+nghttp2:
+  cpeName: nghttp2
+  version: 1.39.2
+  url: 'https://github.com/nghttp2/nghttp2'
+'python::cryptography':
+  cpeName: python::cryptography
+  version: 2.7
+  url: 'https://pypi.org/project/cryptography/'
+'python::cffi':
+  cpeName: python::cffi
+  version: 1.12.3
+  url: 'https://pypi.org/project/cffi/'
+pycparser:
+  cpeName: pycparser
+  version: 2.19
+  url: 'https://pypi.org/project/pycparser/'
+'python::asn1crypto':
+  cpeName: python::asn1crypto
+  version: 1.2.0
+  url: 'https://pypi.org/project/asn1crypto/'
+idna:
+  cpeName: idna
+  version: 2.8
+  url: 'https://pypi.org/project/idna/'
+six:
+  cpeName: six
+  version: 1.12.0
+  url: 'https://pypi.org/project/six/'
+ipaddress:
+  cpeName: ipaddress
+  version: 1.0.22
+  url: 'https://pypi.org/project/ipaddress/'
+pyasn1:
+  cpeName: pyasn1
+  version: 0.4.7
+  url: 'https://pypi.org/project/pyasn1/'
+PyNaCl:
+  cpeName: PyNaCl
+  version: 1.3.0
+  url: 'https://pypi.org/project/PyNaCl/'
+bcrypt:
+  cpeName: bcrypt
+  version: 3.1.7
+  url: 'https://pypi.org/project/bcrypt/'
+zlib:
+  cpeName: zlib
+  version: 1.2.11
+  url: 'https://github.com/madler/zlib'
+postgresql-hll:
+  cpeName: postgresql-hll
+  version: 2.10.2
+  url: 'https://github.com/citusdata/postgresql-hll'
+numactl:
+  cpeName: numactl
+  version: 2.0.13
+  url: 'https://github.com/numactl/numactl'
+pyOpenSSL:
+  cpeName: pyOpenSSL
+  version: 19.0.0
+  url: 'https://pypi.org/project/pyOpenSSL/'
+Apache Arrow:
+  cpeName: Apache Arrow
+  version: v0.11.1
+  url: 'https://github.com/apache/arrow'
+Apache Thrift:
+  cpeName: Apache Thrift
+  version: 0.13.0
+  url: 'https://github.com/apache/thrift'
+boost:
+  cpeName: boost
+  version: 1.71.0
+  url: 'https://www.boost.org/'
+brotli:
+  cpeName: brotli
+  version: v0.6.0
+  url: 'https://github.com/google/brotli'
+c-ares:
+  cpeName: c-ares
+  version: 1.15.0
+  url: 'https://c-ares.haxx.se/vulns.html'
+double-conversion:
+  cpeName: double-conversion
+  version: 3.1.1
+  url: 'https://github.com/google/double-conversion'
+flatbuffers:
+  cpeName: flatbuffers
+  version: 1.11.0
+  url: 'https://github.com/google/flatbuffers'
+google/glog:
+  cpeName: google/glog
+  version: 0.4.0
+  url: 'https://github.com/google/glog'
+grpc:
+  cpeName: grpc
+  version: 1.22.0
+  url: 'https://github.com/grpc/grpc'
+libcgroup:
+  cpeName: libcgroup
+  version: 0.41-21.el7
+  url: 'https://github.com/matsumotory/libcgroup'
+libxml2:
+  cpeName: libxml2
+  version: 2.9.9
+  url: 'https://github.com/GNOME/libxml2'
+rapidjson:
+  cpeName: rapidjson
+  version: 4b3d7c2f42142f10b888e580c515f60ca98e2ee9
+  url: 'http://rapidjson.org/'
+Zstandard:
+  cpeName: Zstandard
+  version: 1.4.4
+  url: 'https://github.com/facebook/zstd'
+cJSON:
+  cpeName: cJSON
+  version: 1.7.11
+  url: 'https://github.com/DaveGamble/cJSON'
+libevent:
+  cpeName: libevent
+  version: 2.1.11
+  url: 'https://github.com/libevent/libevent'
+p7zip:
+  cpeName: p7zip
+  version: 16.02
+  url: 'https://www.7-zip.org/'
+gcc:
+  cpeName: gcc
+  version: 8.2.0
+  url: 'https://gcc.gnu.org/'
+gmp:
+  cpeName: gmp
+  version: 6.1.2
+  url: 'https://gmplib.org/'
+mpc:
+  cpeName: mpc
+  version: 1.1.0
+  url: 'http://ftp.gnu.org/'
+mpfr:
+  cpeName: mpfr
+  version: 4.0.2
+  url: 'https://www.mpfr.org/'
+bounds_checking_function:
+  cpeName: bounds_checking_function
+  version: v1.1.10
+  url: 'https://gitee.com/openeuler'
+isl:
+  cpeName: isl
+  version: 0.18
+  url: 'https://gcc.gnu.org/'
+AdoptOpenJDK:
+  cpeName: AdoptOpenJDK
+  version: jdk8u222-b10
+  url: 'https://adoptopenjdk.net/'
+Apache Maven:
+  cpeName: Apache Maven
+  version: 3.6.3
+  url: 'https://maven.apache.org/security.html'
+unixODBC:
+  cpeName: unixODBC
+  version: 2.3.6
+  url: 'http://www.unixodbc.org/'
