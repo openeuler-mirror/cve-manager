@@ -1,0 +1,557 @@
+hetu-core:
+  commons-codec:
+    cpeName: commons-codec
+    version: 1.14
+    url: https://github.com/apache/commons-codec
+  bcprov-jdk15on:
+    cpeName: bcprov-jdk15on
+    version: 1.66
+    url: https://github.com/bcgit/bc-java
+  re2j-td:
+    cpeName: re2j-td
+    version: 1.4
+    url: https://github.com/Teradata/re2j.git
+  presto-blackhole:
+    cpeName: presto-blackhole
+    version: 316
+    url: https://github.com/trinodb/trino/tree/316/presto-blackhole
+  presto-raptor-legacy:
+    cpeName: presto-raptor-legacy
+    version: 316
+    url: https://github.com/trinodb/trino/tree/316/presto-raptor-legacy
+  hadoop-apache:
+    cpeName: hadoop-apache
+    version: 3.2.0-8
+    url: https://github.com/prestosql/presto-hadoop-apache
+  hive-apache:
+    cpeName: hive-apache
+    version: 3.1.2-1
+    url: https://github.com/prestosql/presto-hive-apache
+  orc-protobuf:
+    cpeName: orc-protobuf
+    version: 9
+    url: https://github.com/prestosql/orc-protobuf
+  aircompressor:
+    cpeName: aircompressor
+    version: 0.15
+    url: http://github.com/airlift/aircompressorf
+  log:
+    cpeName: log
+    version: 0.193
+    url: https://github.com/airlift/airlift/log
+  log-manager:
+    cpeName: log-manager
+    version: 0.193
+    url: https://github.com/airlift/airlift/log-manager
+  json:
+    cpeName: json
+    version: 0.193
+    url: https://github.com/airlift/airlift/json
+  security:
+    cpeName: security
+    version: 0.193
+    url: https://github.com/airlift/airlift/security
+  units:
+    cpeName: units
+    version: 1.3
+    url: https://github.com/airlift/units
+  concurrent:
+    cpeName: concurrent
+    version: 0.193
+    url: https://github.com/airlift/airlift/concurrent
+  configuration:
+    cpeName: configuration
+    version: 0.193
+    url: https://github.com/airlift/airlift/configuration
+  discovery:
+    cpeName: discovery
+    version: 0.193
+    url: https://github.com/airlift/airlift/discovery
+  testing:
+    cpeName: testing
+    version: 0.193
+    url: https://github.com/airlift/airlift/testing
+  node:
+    cpeName: node
+    version: 0.193
+    url: https://github.com/airlift/airlift/node
+  bootstrap:
+    cpeName: bootstrap
+    version: 0.193
+    url: https://github.com/airlift/airlift/bootstrap
+  event:
+    cpeName: event
+    version: 0.193
+    url: https://github.com/airlift/airlift/event
+  event-http:
+    cpeName: event-http
+    version: 0.193
+    url: https://github.com/airlift/airlift/event-http
+  joda-time:
+    cpeName: joda-time
+    version: 2.10.5
+    url: https://www.joda.org/joda-time/
+  http-server:
+    cpeName: http-server
+    version: 0.193
+    url: https://github.com/airlift/airlift/http-server
+  jaxrs:
+    cpeName: jaxrs
+    version: 0.193
+    url: https://github.com/airlift/airlift/jaxrs
+  jaxrs-testing:
+    cpeName: jaxrs-testing
+    version: 0.193
+    url: https://github.com/airlift/airlift/jaxrs-testing
+  jmx:
+    cpeName: jmx
+    version: 0.193
+    url: https://github.com/airlift/airlift/jmx
+  trace-token:
+    cpeName: trace-token
+    version: 0.193
+    url: https://github.com/airlift/airlift/trace-token
+  dbpool:
+    cpeName: dbpool
+    version: 0.193
+    url: https://github.com/airlift/airlift/dbpool
+  jmx-http:
+    cpeName: jmx-http
+    version: 0.193
+    url: https://github.com/airlift/airlift/jmx-http
+  http-client:
+    cpeName: http-client
+    version: 0.193
+    url: https://github.com/airlift/airlift/http-client
+  slice:
+    cpeName: slice
+    version: 0.38
+    url: https://github.com/airlift/slice
+  stats:
+    cpeName: stats
+    version: 0.193
+    url: https://github.com/airlift/airlift/stats
+  bytecode:
+    cpeName: bytecode
+    version: 1.2
+    url: https://github.com/airlift/bytecode
+  joni:
+    cpeName: joni
+    version: 2.1.5.3
+    url: https://github.com/airlift/joni
+  joda-to-java-time-bridge:
+    cpeName: joda-to-java-time-bridge
+    version: 3
+    url: https://github.com/airlift/joda-to-java-time-bridge
+  drift-api:
+    cpeName: drift-api
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-api
+  drift-client:
+    cpeName: drift-client
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-client
+  drift-codec:
+    cpeName: drift-codec
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-codec
+  drift-protocol:
+    cpeName: drift-client
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-protocol
+  drift-server:
+    cpeName: drift-server
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-server
+  drift-transport-netty:
+    cpeName: drift-transport-netty
+    version: 1.14
+    url: https://github.com/airlift/drift/tree/master/drift-transport-netty
+  tpch:
+    cpeName: tpch
+    version: 0.10
+    url: https://github.com/airlift/tpch
+  tpcds:
+    cpeName: tpcds
+    version: 1.2
+    url: https://github.com/Teradata/tpcds
+  asm:
+    cpeName: asm
+    version: 7.1
+    url: https://gitlab.ow2.org/asm/asm/
+  asm-analysis:
+    cpeName: asm-analysis
+    version: 7.1
+    url: https://gitlab.ow2.org/asm/asm/
+  asm-tree:
+    cpeName: asm-tree
+    version: 7.1
+    url: https://gitlab.ow2.org/asm/asm/
+  h2:
+    cpeName: h2
+    version: 1.4.199
+    url: https://github.com/h2database/h2database
+  aether-api:
+    cpeName: aether-api
+    version: 1.13.1
+    url: https://github.com/sonatype/sonatype-aether
+  resolver:
+    cpeName: resolver
+    version: 1.5
+    url: https://github.com/airlift/resolver
+  airline:
+    cpeName: airline
+    version: 0.8
+    url: https://github.com/airlift/airline
+  jol-core:
+    cpeName: jol-core
+    version: 0.2
+    url: https://github.com/openjdk/jol
+  annotations:
+    cpeName: annotations
+    version: 13.0
+    url: https://github.com/JetBrains/intellij-community
+  fastutil:
+    cpeName: fastutil
+    version: 6.5.9
+    url: https://github.com/vigna/fastutil
+  plexus-utils:
+    cpeName: plexus-utils
+    version: 3.3.0
+    url: http://github.com/codehaus-plexus/plexus-utils
+  libsvm:
+    cpeName: libsvm
+    version: 3.18.1
+    url: https://github.com/cberner/libsvm
+  mysql:
+    cpeName: mysql
+    version: 5.1.47
+    url: https://github.com/mysql/mysql-connector-j
+  kotlin-stdlib:
+    cpeName: kotlin-stdlib
+    version: 1.4.30
+    url: https://github.com/JetBrains/kotlin
+  postgresql:
+    cpeName: postgresql
+    version: 42.2.14
+    url: https://github.com/pgjdbc/pgjdbc
+  maven-artifact:
+    cpeName: maven-artifact
+    version: 3.6.0
+    url: https://github.com/apache/maven/tree/master/maven-artifact
+  pcollections:
+    cpeName: pcollections
+    version: 2.1.2
+    url: http://pcollections.googlecode.com/svn/tags/v2.1.2
+  antlr4-runtime:
+    cpeName: antlr4-runtime
+    version: 4.7.1
+    url: https://github.com/antlr/antlr4/tree/master
+  mssql-jdbc:
+    cpeName: mssql-jdbc
+    version: 7.0.0.jre8
+    url: https://github.com/Microsoft/mssql-jdbc
+  jline:
+    cpeName: jline
+    version: 2.14.6
+    url: https://github.com/jline/jline2
+  jdbi:
+    cpeName: jdbi
+    version: 2.78
+    url: https://github.com/jdbi/jdbi/
+  jdbi3-core:
+    cpeName: jdbi3-core
+    version: 3.4.0
+    url: https://github.com/jdbi/jdbi/
+  jdbi3-sqlobject:
+    cpeName: jdbi3-sqlobject
+    version: 3.4.0
+    url: https://github.com/jdbi/jdbi/
+  okhttp:
+    cpeName: okhttp
+    version: 3.9.0
+    url: https://github.com/square/okhttp
+  okhttp-urlconnection:
+    cpeName: okhttp-urlconnection
+    version: 3.9.0
+    url: https://github.com/square/okhttp
+  mockwebserver:
+    cpeName: mockwebserver
+    version: 3.9.0
+    url: https://github.com/square/okhttp
+  jjwt:
+    cpeName: jjwt
+    version: 0.9.0
+    url: https://github.com/jwtk/jjwt
+  libthrift:
+    cpeName: libthrift
+    version: 0.9.3-1
+    url: https://github.com/apache/thrift
+  commons-lang3:
+    cpeName: commons-lang3
+    version: 3.11
+    url: https://commons.apache.org/proper/commons-lang/
+  jettison:
+    cpeName: jettison
+    version: 1.4.1
+    url: https://github.com/jettison-json/jettison
+  hadoop-distcp:
+    cpeName: hadoop-distcp
+    version: 2.10.1
+    url: https://github.com/c9n/hadoop
+  hive-contrib:
+    cpeName: hive-contrib
+    version: 3.1.2
+    url: https://github.com/apache/hive
+  hudi-hadoop-mr:
+    cpeName: hudi-hadoop-mr
+    version: 0.7.0
+    url: https://github.com/apache/hudi
+  opencsv:
+    cpeName: opencsv
+    version: 2.3
+    url: http://opencsv.sf.net
+  error_prone_annotations:
+    cpeName: error_prone_annotations
+    version: 2.3.2
+    url: https://github.com/google/error-prone
+  commons-pool2:
+    cpeName: commons-pool2
+    version: 2.8.0
+    url: https://gitbox.apache.org/repos/asf?p=commons-pool.git
+  commons-math3:
+    cpeName: commons-math3
+    version: 3.6.1
+    url: https://git-wip-us.apache.org/repos/asf?p=commons-math.git
+  discovery-server:
+    cpeName: discovery-server
+    version: 1.29
+    url: https://github.com/airlift/discovery
+  aws-java-sdk-core:
+    cpeName: aws-java-sdk-core
+    version: 1.11.445
+    url: https://github.com/aws/aws-sdk-java
+  aws-java-sdk-glue:
+    cpeName: aws-java-sdk-glue
+    version: 1.11.445
+    url: https://github.com/aws/aws-sdk-java
+  aws-java-sdk-s3:
+    cpeName: aws-java-sdk-s3
+    version: 1.11.445
+    url: https://github.com/aws/aws-sdk-java
+  aws-java-sdk-sts:
+    cpeName: aws-java-sdk-sts
+    version: 1.11.445
+    url: https://github.com/aws/aws-sdk-java
+  testing-mysql-server:
+    cpeName: testing-mysql-server
+    version: 8.0.12-2
+    url: https://github.com/airlift/testing-mysql-server
+  util:
+    cpeName: util
+    version: 1.9.10
+    url: https://github.com/GoogleCloudDataproc/hadoop-connectors
+  gcsio:
+    cpeName: gcsio
+    version: 1.9.10
+    url: https://github.com/GoogleCloudDataproc/hadoop-connectors
+  util-hadoop:
+    cpeName: util-hadoop
+    version: hadoop2-1.9.10
+    url: https://github.com/GoogleCloudDataproc/hadoop-connectors
+  gcs-connector:
+    cpeName: gcs-connector
+    version: hadoop2-1.9.10
+    url: https://github.com/GoogleCloudDataproc/hadoop-connectors
+  junit:
+    cpeName: junit
+    version: 4.13.1
+    url: https://github.com/junit-team/junit4
+  testing-postgresql-server:
+    cpeName: testing-postgresql-server
+    version: 9.6.3-3
+    url: https://github.com/airlift/testing-postgresql-server
+  snappy-java:
+    cpeName: snappy-java
+    version: 1.1.2.6
+    url: https://github.com/xerial/snappy-java
+  zookeeper:
+    cpeName: zookeeper
+    version: 3.4.13
+    url: https://github.com/apache/zookeeper
+  jgrapht-core:
+    cpeName: jgrapht-core
+    version: 0.9.0
+    url: https://github.com/jgrapht/jgrapht.git
+  jedis:
+    cpeName: jedis
+    version: 2.6.2
+    url: https://github.com/redis/jedis
+  embedded-redis:
+    cpeName: embedded-redis
+    version: 0.6
+    url: https://github.com/gbrd/embedded-redis
+  tempto-core:
+    cpeName: tempto-core
+    version: 165
+    url: https://github.com/prestosql/tempto
+  tempto-ldap:
+    cpeName: tempto-ldap
+    version: 165
+    url: https://github.com/prestosql/tempto
+  tempto-kafka:
+    cpeName: tempto-kafka
+    version: 165
+    url: https://github.com/prestosql/tempto
+  tempto-runner:
+    cpeName: tempto-runner
+    version: 165
+    url: https://github.com/prestosql/tempto
+  hive-apache-jdbc:
+    cpeName: hive-apache-jdbc
+    version: 0.13.1-7
+    url: https://github.com/prestosql/presto-hive-jdbc
+  esri-geometry-api:
+    cpeName: esri-geometry-api
+    version: 2.2.2
+    url: https://github.com/Esri/geometry-api-java
+  lucene-analyzers-common:
+    cpeName: lucene-analyzers-common
+    version: 7.2.1
+    url: https://github.com/apache/lucene
+  jts-core:
+    cpeName: jts-core
+    version: 1.15.0
+    url: https://github.com/locationtech/jts
+  lzo-hadoop:
+    cpeName: lzo-hadoop
+    version: 1.0.5
+    url: https://github.com/shevek/lzo-java
+  cassandra-server:
+    cpeName: cassandra-server
+    version: 2.1.16-2
+    url: https://github.com/prestodb/presto-cassandra-server
+  objenesis:
+    cpeName: objenesis
+    version: 3.1
+    url: https://github.com/easymock/objenesis
+  cassandra-driver:
+    cpeName: cassandra-driver
+    version: 3.1.4-2
+    url: https://github.com/prestosql/presto-cassandra-driver
+  starburst-spotify-docker-client:
+    cpeName: starburst-spotify-docker-client
+    version: 8.11.7-0.6
+    url: https://github.com/starburstdata/starburst-spotify-docker-client
+  failsafe:
+    cpeName: failsafe
+    version: 2.0.1
+    url: http://github.com/jhalterman/failsafe/
+  caffeine:
+    cpeName: caffeine
+    version: 2.7.0
+    url: https://github.com/ben-manes/caffeine
+  javassist:
+    cpeName: javassist
+    version: 3.22.0-GA
+    url: http://www.javassist.org/
+  commons-io:
+    cpeName: commons-io
+    version: 2.8.0
+    url: https://gitbox.apache.org/repos/asf?p=commons-io.git
+  httpcore:
+    cpeName: httpcore
+    version: 4.4.13
+    url: https://github.com/apache/httpcomponents-core/
+  httpclient:
+    cpeName: httpclient
+    version: 4.5.13
+    url: https://github.com/apache/httpcomponents-client
+  mockito-core:
+    cpeName: mockito-core
+    version: 1.9.5
+    url: http://www.mockito.org
+  guava:
+    cpeName: guava
+    version: 26.0-jre
+    url: https://github.com/google/guava
+  gson:
+    cpeName: gson
+    version: 2.5
+    url: https://github.com/google/gson
+  http2-server:
+    cpeName: http2-server
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-http:
+    cpeName: jetty-http
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-io:
+    cpeName: jetty-io
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-jmx:
+    cpeName: jetty-jmx
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-security:
+    cpeName: jetty-security
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-server:
+    cpeName: jetty-server
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-servlet:
+    cpeName: jetty-servlet
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-util:
+    cpeName: jetty-util
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  http2-common:
+    cpeName: http2-common
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  http2-hpack:
+    cpeName: http2-hpack
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  http2-http-client-transport:
+    cpeName: http2-http-client-transport
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-alpn-client:
+    cpeName: jetty-alpn-client
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  jetty-client:
+    cpeName: jetty-client
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  http2-client:
+    cpeName: http2-client
+    version: 9.4.43.v20210629
+    url: https://eclipse.org/jetty
+  kylin-jdbc:
+    cpeName: kylin-jdbc
+    version: 3.0.2
+    url: https://github.com/apache/kylin
+  calcite-core:
+    cpeName: calcite-core
+    version: 1.18.0
+    url: https://github.com/apache/calcite
+openlookeng-ranger-plugin:
+  junit:
+    cpeName: junit
+    version: 4.12
+    url: https://github.com/junit-team/junit4
+hetu-odbc-gateway:
+  mongo-java-driver:
+    cpeName: mongo-java-driver
+    version: 3.11.0
+    url: https://github.com/mongodb/mongo-java-driver
+
+
