@@ -1,0 +1,9 @@
+package obsimpl
+
+type Config struct {
+	AccessKey string `json:"access_key"    required:"true"`
+	SecretKey string `json:"secret_key"    required:"true"`
+	Endpoint  string `json:"endpoint"      required:"true"`
+	Bucket    string `json:"bucket"        required:"true"`
+	Directory string `json:"directory"     required:"true"`
+}
